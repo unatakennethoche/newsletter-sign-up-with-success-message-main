@@ -57,6 +57,17 @@ input{
   border-radius: 5px;
 }
 
+.error-message{
+  color: red;
+  display:none;
+}
+
+.invalid-style{
+  border: 1px solid hsl(4, 100%, 67%);
+  color:hsl(4, 100%, 67%);
+  background-color: hsl(5, 36%, 74%);
+}
+
 button{
   width:100%;
   margin-top: 20px;
@@ -65,6 +76,11 @@ button{
   background-color: hsl(235, 18%, 26%);
   color: white;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: hsl(4, 100%, 67%);
 }
 
 .success-message{
@@ -72,7 +88,7 @@ button{
   margin:100px auto;
   font-family: inherit;
   padding: 0px 20px;
-  display:none
+
 }
 
 .success-message img{
